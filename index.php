@@ -8,13 +8,13 @@ include_once './conexao.php'; //inclui o arquivo de conexão com o banco de dado
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validação com Javascript</title>
+    <title>Login</title>
     <!--<link rel="stylesheet" href="css/style.css">-->
     <link rel="shortcut icon" href="img/php.ico"/>
 </head>
 <body>
         <!-- Formulário com validação HTML5, Javascript e PHP-->
-         <h2>Formulário de Contato</h2>
+         <h2>Formulário de Login</h2>
 
         <?php
             $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
@@ -101,5 +101,5 @@ include_once './conexao.php'; //inclui o arquivo de conexão com o banco de dado
     Autor: Daniel Oliveira
     Email: danieloliveira.webmaster@gmail.com
     Manaus/Amazonas
-    28/02/2022
+    12/03/2022
 -->

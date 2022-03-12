@@ -5,7 +5,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "teste-db";
+$dbname = "base-dados";
 $port = "3306";
 
 try {
